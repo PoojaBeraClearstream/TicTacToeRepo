@@ -1,0 +1,4 @@
+steps:
+  - name: maven:4.0.0-jdk-13-slim
+    entrypoint: 'mvn'
+    args: ['clean', 'install', '-DskipTests']
